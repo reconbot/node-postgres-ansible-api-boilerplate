@@ -68,7 +68,7 @@ Content-Type: application/json
 ### Reading Resources
 ```
 // many
-GET /v1/start
+GET /v1/state
 
 // one
 GET /v1/state/1
