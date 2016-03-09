@@ -1,4 +1,4 @@
-# node-postgresql-ansible-boilerplate
+# node-postgresql-ansible-api-boilerplate
 > a simple api boilerplate
 
 This is a basic boilerplate for spinning up a non-hypermedia API with a minimum
