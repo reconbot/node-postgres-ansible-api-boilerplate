@@ -1,5 +1,5 @@
 {
-  "name": "vtf-api",
+  "name": "node-postgresql-ansible-api-boilerplate",
   "version": "0.0.0",
   "private": true,
   "scripts": {
