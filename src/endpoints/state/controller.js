@@ -28,8 +28,8 @@ export function create (req, res) {
     // if we have created a single item, we can send a location header
     // indicating where the new resource can be accessed
     if (single) {
-      res.location(`${location}/${result[0].id}`);
       result = result[0];
+      res.location(`${location}/${result.id}`);
     }
     // send the created data back
     res.send(success(result));
