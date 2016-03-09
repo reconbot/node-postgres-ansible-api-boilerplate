@@ -17,7 +17,7 @@ hostname: "{{project_name}}"
 # nginx checks this value against the URL being requested, it must be the same
 # as the server's DNS name. This value is overridden for Vagrant and staging
 # servers.
-site_fqdn: "{{project_name}}.com"
+site_fqdn: "{{project_name}}.tkellen.com"
 
 ##############
 # PROVISIONING
@@ -117,14 +117,14 @@ swap_file_size: 2GB
 ###################
 
 # Specify any valid remote (typically a github user)
-remote: t3live
+remote: tkellen
 
 # Specify any ref (eg. branch, tag, SHA) to be deployed. This ref must be
 # pushed to the remote git_repo before it can be deployed.
 commit: master
 
 # Git repo address.
-git_repo: https://github.com/{{remote}}/vtf-api.git
+git_repo: https://github.com/{{remote}}/{{project_name}}.git
 
 # Clone and build the specified commit SHA, regardless of prior build status.
 force: false

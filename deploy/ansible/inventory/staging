@@ -3,4 +3,4 @@
 # production server's FQDN. This is likely the only change you will need to
 # make between production and staging.
 
-staging.api.com site_fqdn=staging.api.com
+staging-api.tkellen.com site_fqdn=staging-api.tkellen.com
