@@ -28,7 +28,7 @@ of abstractions. It relies heavily on [pg-promise](https://www.npmjs.com/package
 1. Run `npm install` to install local dependencies.
 2. Run `vagrant up` to set up postgresql database.
 3. Run `npm run migrate:up` to initialize the database.
-4. Run `npm start-dev` to start the api.
+4. Run `npm run start-dev` to start the api.
 5. Browse to <http://localhost:8000/>
 6. Edit files in `src/api` (the server will automatically restart on changes).
 
