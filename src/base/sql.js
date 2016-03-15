@@ -6,7 +6,7 @@ import pgp from 'pg-promise';
 export function load(basePath) {
   return fs.readdirSync(basePath).reduce((result, queryFile) => {
     const query = path.basename(queryFile, '.sql');
-    result[query] = pgp.QueryFile(path.join(basePath, queryFile));
+    result[query] = pgp.QueryFile(path.join(basePath, queryFile), {minify: true});
     return result;
   }, {});
 }
