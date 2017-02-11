@@ -1,4 +1,6 @@
 # node-postgresql-ansible-api-boilerplate
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/reconbot/node-postgres-ansible-api-boilerplate.svg)](https://greenkeeper.io/)
 > a simple api boilerplate
 
 This is a basic boilerplate for spinning up a non-hypermedia API with a minimum
